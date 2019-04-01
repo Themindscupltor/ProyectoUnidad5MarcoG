@@ -1,1 +1,1 @@
-# exploring the phylogenetic relationships in *Abies* genus
+# Exploring the phylogenetic relationships in *Abies* genus using GBS data.
