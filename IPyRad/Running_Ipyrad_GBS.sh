@@ -8,6 +8,8 @@ $ cd ./proyecto_radseq
 ./ipyrad -n prueba3 
 
 # You can use the 'param-prueba3.txt' parameter file inside the `data` folder in order to put the same parameters used.
+# the data in this exercise it's already demultiplexes. However, Ipyrad workflow demand to execute all the 7 steps. So
+# this is how you can make it.
 
 ./ipyrad -p params-prueba3.txt -s 1234567
 
