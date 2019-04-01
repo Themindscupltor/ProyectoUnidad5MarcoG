@@ -1,0 +1,105 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              51614              0          51614
+filtered_by_rm_duplicates             966            966          50648
+filtered_by_max_indels                440            440          50208
+filtered_by_max_snps                  428            106          50102
+filtered_by_max_shared_het           2688           2481          47621
+filtered_by_min_sample              24171          23656          23965
+filtered_by_max_alleles             10149           1727          22238
+total_filtered_loci                 22238              0          22238
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                     sample_coverage
+AbCn01.trimmed                 12518
+AcCh03.trimmed                 17560
+AfJa2029.trimmed               15455
+AgCp02.trimmed                 15806
+AgGr02.trimmed                 12853
+AgGu01.trimmed                 18457
+AjJaAlf9.trimmed               14415
+AmJa2125.trimmed               14457
+AnAl01.trimmed                 11735
+ArJaC127.trimmed               17178
+ArMeTo12.trimmed               15690
+ArMi5515.trimmed               12658
+ArVe4819_r4.trimmed            17990
+AuDg02.trimmed                 18344
+AvNl02.trimmed                 18969
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             1896          1896
+5             1409          3305
+6             1213          4518
+7             1185          5703
+8             1185          6888
+9             1432          8320
+10            1480          9800
+11            1819         11619
+12            1927         13546
+13            2367         15913
+14            2064         17977
+15            4261         22238
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var    pis  sum_pis
+0   4160        0  12685        0
+1   4416     4416   5195     5195
+2   3793    12002   2128     9451
+3   2922    20768    955    12316
+4   2041    28932    483    14248
+5   1386    35862    246    15478
+6    988    41790    152    16390
+7    660    46410    124    17258
+8    472    50186    113    18162
+9    366    53480     62    18720
+10   264    56120     35    19070
+11   202    58342     31    19411
+12   139    60010     18    19627
+13   125    61635      6    19705
+14    94    62951      2    19733
+15    78    64121      3    19778
+16    37    64713      0    19778
+17    30    65223      0    19778
+18    30    65763      0    19778
+19    20    66143      0    19778
+20    15    66443      0    19778
+
+
+## Final Sample stats summary
+
+                     state  reads_raw  reads_passed_filter  refseq_mapped_reads  refseq_unmapped_reads  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+AbCn01.trimmed           7    6377533              6377533                 7448                1228163          478449             85799    0.028371   0.001850          73452             12518
+AcCh03.trimmed           7    8169726              8169726                 7008                1696096          667490            139469    0.021217   0.002117         126092             17560
+AfJa2029.trimmed         7    1766589              1766589                 3353                 533323          336522             37135    0.011490   0.001696          35358             15455
+AgCp02.trimmed           7    1136334              1136334                 2355                 346124          222707             25274    0.015375   0.002148          23474             15806
+AgGr02.trimmed           7    1180645              1180645                  854                 617975          447731             36662    0.017330   0.002690          33123             12853
+AgGu01.trimmed           7    7151295              7151295                 2786                2314491         1341335            133866    0.032312   0.003164         111961             18457
+AjJaAlf9.trimmed         7    1056478              1056478                 1535                 157130           45206             22325    0.010793   0.001842          21379             14415
+AmJa2125.trimmed         7    1607156              1607156                 2149                 534716          353378             37742    0.015530   0.001851          34955             14457
+AnAl01.trimmed           7    6697621              6697621                 1136                2411929         1398603            101739    0.046443   0.002685          74651             11735
+ArJaC127.trimmed         7    2418411              2418411                 2454                 325907          153338             35710    0.010534   0.000940          34384             17178
+ArMeTo12.trimmed         7    3018505              3018505                 1644                 782453          437661             64950    0.023295   0.001401          58780             15690
+ArMi5515.trimmed         7    1112861              1112861                 2080                 169220           67953             18211    0.011139   0.001614          17342             12658
+ArVe4819_r4.trimmed      7    1942113              1942113                 2315                 249977           78335             24948    0.012453   0.001258          23649             17990
+AuDg02.trimmed           7    5133367              5133367                 8163                 408865           82122             27746    0.015383   0.001650          25733             18344
+AvNl02.trimmed           7    6327422              6327422                 6408                 674403          116232             31687    0.015814   0.001214          29328             18969
