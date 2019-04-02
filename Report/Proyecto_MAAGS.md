@@ -13,7 +13,7 @@ Firs (Abies Miller; a predominantly temperate northern genus) are among the most
 
 Needles were collected from nineteen individuals of 19 *Abies* species in natural populations (table 1). Samples were obtained by the PhD Students Sebastian XX XX and Gustavo Ibrahim Giles Pérez. Total DNA was extracted from the needles using a cetyltrimethyl ammonium bromide (CTAB) mini-prep protocol (Vázquez-Lobo, 1996), or a DNeasy Plant Mini Kit (Qiagen).
 
-[IMAGEN TABLA 1]
+![IMAGEN TABLA 1](Tabla1.png)
 
 **Sequencing Method and sequence analysis**
 
