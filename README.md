@@ -2,6 +2,6 @@
 
 Here's an image of a drag racer in action:
 
-![](Raw Graph.png)
+![](Raw_Graph.png)
 
 Move along.
