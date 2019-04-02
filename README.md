@@ -2,6 +2,6 @@
 
 Here's an image of a drag racer in action:
 
-![alt text](./FIGURES/Figures/Raw Graph.png)
+![alt text](Raw Graph.png)
 
 Move along.
