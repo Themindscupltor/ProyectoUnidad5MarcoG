@@ -33,16 +33,18 @@ Using the loci ouptut data, I select the first 3 000 characters in order to make
 
 **RAW data and clustering**
 
-In the first steps using the demultiplexed sequences, we found that some specimens did not reach the one million readings scaffold (table 1), so I decided to eliminate them from the following steps. At the end of the assembly process with Ipyrad. the samples obtained a differential performance in regarding of the number of consensus readings (IMAGE 2). an the end of the ensamble processm i can recover an alignment with 66,443 SNPS (output: `prueba3.snps.phy.nex`, in the` step7` folder in this repository). 
+In the first steps using the demultiplexed sequences, we found that some specimens did not reach the one million readings scaffold (table 1), so I decided to eliminate them from the following steps. At the end of the assembly process with Ipyrad. the samples obtained a differential performance in regarding of the number of consensus readings (Figure 2). an the end of the ensamble processm i can recover an alignment with 66,443 SNPS (output: `prueba3.snps.phy.nex`, in the` step7` folder in this repository). 
 
 ![IMAGEN GRAFICA CONSENSUS](Consensus_Graph.jpeg)
-
+**Figure 2. Consensus reads for all the samples used in the phylogenetic reconstruction**
 
 **Phylogenetic reconstruction**
 
 The phylogenetic reconstruction using the first 3000 bp of the output `test3.phy.nex` showed the topology in figure 1. To root the tree the sample was used ***AnAl01*** (*A. nordmanniana* from JB Koishikawa , Tokyo Japan).
 
-[FIGURA TOPOLOGIA]
+![FIGURA TOPOLOGIA](Abies.jpg)
+
+**Figure 3. ML phylogenetic reconstruction using RaxML-HPC2 for 15 *Abies* species. Bootstrap support are in black numbers over the branches.**
 
 Since the taxonomic sampling used in this work is limited, the conclusions of this work have to be subedited to this condition. However, comparing the phylogeny obtained with that published in Aguirre-Planter *et al* (2011), we can observe certain similarities.
 
