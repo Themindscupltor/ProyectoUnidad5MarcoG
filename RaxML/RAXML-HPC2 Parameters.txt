@@ -1,0 +1,26 @@
+RAxML-HPC2 on XSEDE - Parameters
+
+ascertainment_corr_	lewis
+bootstop_	100
+bootstrap_seed_	true
+bootstrap_seed_val_	12345
+convergence_criterion_	false
+datatype_	dna
+disable_ratehet_	false
+disable_seqcheck_	false
+dna_gtrcat_	GTRCAT
+intermediate_treefiles_	false
+invariable_	I
+mesquite_output_	false
+mlsearch_	true
+more_memory_	false
+no_bfgs_	false
+number_cats_	25
+outsuffix_	reconstruccion
+parsimony_seed_val_	12345
+printbrlength_	false
+provide_parsimony_seed_	true
+rearrangement_yes_	false
+runtime_	12
+specify_bootstraps_	true
+use_apobootstopping_	false
