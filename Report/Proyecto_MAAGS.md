@@ -40,17 +40,18 @@ In the first steps using the demultiplexed sequences, we found that some specime
 
 **Phylogenetic reconstruction**
 
-The phylogenetic reconstruction using the first 3000 bp of the output `test3.phy.nex` showed the topology in figure 1. To root the tree the sample was used ***AnAl01*** (*A. nordmanniana* from JB Koishikawa , Tokyo Japan).
+The phylogenetic reconstruction using the first 3000 bp of the output `test3.phy.nex` showed the topology in figure 1. To root the tree the sample was used ***AnAl01*** (*A. nordmanniana* from JB Koishikawa , Tokyo Japan). Since the taxonomic sampling used in this work is limited, the conclusions of this work have to be subedited to this condition. However, comparing the phylogeny obtained with that published in Aguirre-Planter *et al* (2011), we can observe certain similarities.
 
 ![FIGURA TOPOLOGIA](Abies.jpg)
 
 **Figure 3. ML phylogenetic reconstruction using RaxML-HPC2 for 15 *Abies* species. Bootstrap support are in black numbers over the branches.**
 
-Since the taxonomic sampling used in this work is limited, the conclusions of this work have to be subedited to this condition. However, comparing the phylogeny obtained with that published in Aguirre-Planter *et al* (2011), we can observe certain similarities.
-
-[TOPOLOGIA PLANTER]
-
 Enclosed in the yellow box, we can observe a group composed of those species from Mesoamerica and North America, similar to Group I, in the phylogeny of figure 2 in the article by Aguirre-Planter (2011). Within this group in my phylogenetic reconstruction, i obtainedlow bootstrap supports, and it is not possible to observe any biogeographical pattern that could explain the pattern of divergence between species, such as the effect of some geographic barrier (*i.e.* the transversal neovolcanic axis) as a factor encourage speciation by vicariance. 
+
+![TOPOLOGIA PLANTER](Planter.png)
+
+**Figure 4 Fig. 2. Maximum-likelihood phylogenetic reconstruction of 33 Abies taxa inferred from three chloroplast markers (rbcL, rps18-rpl20, trnL-trnF. Aguirre-Planter *et al.*, 2011).**
+
 
  The separation on the phylogenetic tree of the samples **AbCn01** and **AnAl01** (*A. Balsamea* from Montreal, Canada and *A. nordmanniana* from Koishikawa, Japan) could recover groups III and IV, corresponding to North America and the Mediterranean groups in Aguirre-Planter (2011). However, the evolutionary relationships between the groups are not recovered in the same way as in the phylogeny of Aguirre-Planter *et al*. (2011). This could be explained as an artifact in the process of phylogenetic reconstruction, by not having used a greater number of taxa in order to better dilute the evolutionary relationships between the groups. Since the analyzes were carried out using only a fraction of the data obtained by the sequencing process, these may not be enough to recover a better phylogenetic reconstruction. With the help of a computational Cluster, it could be possible to run a greater amount of data, using a greater number of taxa, in order to obtain much more robust results.
  
