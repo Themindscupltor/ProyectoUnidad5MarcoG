@@ -18,7 +18,7 @@ Needles were collected from nineteen individuals of 19 *Abies* species in natura
 
 **Sequencing Method and sequence analysis**
 
-The DNA Samples were sequenced with Ion Torrent In Illumina Plataform. Raw sequence reads were clustered *de novo* using Ipyrad (Eaton, D. A. R & Overcast, I., 2016). I perform 3 different runs, varying different parameters in order to obtanin the best posible aligment. In this Ensamble i used the mithocondrial genome of *Abies religiosa (GB code: MH612854.1 Abies religiosa voucher DRD45 plastid, complete genome)* in order to eliminate the mitochondrial sequences presented in each sample. Since the Data was demultiplexed previously, I chose those reads with enouhgt high sequencing quality in order to do the next steps (Figure 1). Just the better result it's presented in this report, and all the outputs can be found in my github repository (`https://github.com/Themindscupltor/ProyectoUnidad5MarcoG.git`)
+The DNA Samples were sequenced with Ion Torrent In Illumina Plataform. Raw sequence reads were clustered *de novo* using Ipyrad (Eaton, D. A. R & Overcast, I., 2016). I perform 3 different runs, varying different parameters in order to obtanin the best posible aligment. In this Ensamble i used the mithocondrial genome of *Abies religiosa (GB code: MH612854.1 Abies religiosa voucher DRD45 plastid, complete genome)* in order to eliminate the mitochondrial sequences presented in each sample. Since the Data was demultiplexed previously, I chose those reads with enouhgt high sequencing quality in order to do the next steps (Figure 1). Just the better result its present in this report, and all the outputs can be found in my github repository (`https://github.com/Themindscupltor/ProyectoUnidad5MarcoG.git`)
 
 
 ![IMAGEN GRÁFICA RAWS](Raw_Graph.png)
@@ -29,34 +29,33 @@ The DNA Samples were sequenced with Ion Torrent In Illumina Plataform. Raw seque
 
 Using the loci ouptut data, I select the first 3 000 characters in order to make a phylogenetic reconstruction using RaxML-HPC2 with a GTR+I+G nucleotide substitution model. The reconstruction was made in CIPRES web portal, Using the parameters.txt file in RaxML Folder.
 
-### Results and discussion.
+## Results and discussion.
 
 **RAW data and clustering**
 
-In the first steps using the demultiplexed sequences, we found that some specimens did not reach the one million readings scaffold (table 1), so I decided to eliminate them from the following steps. At the end of the assembly process with Ipyrad. the samples obtained a differential performance in regarding of the number of consensus readings (Figure 2). an the end of the ensamble processm i can recover an alignment with 66,443 SNPS (output: `prueba3.snps.phy.nex`, in the` step7` folder in this repository). 
+In the first steps using the demultiplexed sequences, we found that some specimens did not reach the one million readings scaffold (table 1), so I decided to eliminate them from the following steps. At the end of the assembly process with Ipyrad. the samples obtained a differential performance in regarding of the number of consensus readings (Figure 2). At the end of the ensamble process I could recover an alignment with 66,443 SNPS (output: `prueba3.snps.phy.nex`, in the `step7` folder in this repository). 
 
 ![IMAGEN GRAFICA CONSENSUS](Consensus_Graph.jpeg)
 **Figure 2. Consensus reads for all the samples used in the phylogenetic reconstruction**
 
 **Phylogenetic reconstruction**
 
-The phylogenetic reconstruction using the first 3000 bp of the output `test3.phy.nex` showed the topology in figure 1. To root the tree the sample was used ***AnAl01*** (*A. nordmanniana* from JB Koishikawa , Tokyo Japan). Since the taxonomic sampling used in this work is limited, the conclusions of this work have to be subedited to this condition. However, comparing the phylogeny obtained with that published in Aguirre-Planter *et al* (2011), we can observe certain similarities.
+The phylogenetic reconstruction using the first 3000 bp of the output `test3.phy.nex` showed the topology in figure 3. To root the tree the sample was used ***AnAl01*** (*A. nordmanniana* from JB Koishikawa , Tokyo Japan). Since the taxonomic sampling used in this work is limited, the conclusions of this work have to be subedited to this condition. However, comparing the phylogeny obtained with that published in Aguirre-Planter *et al* (2011)(figure 4), we can observe certain similarities.
 
 ![FIGURA TOPOLOGIA](Abies.jpg)
 
 **Figure 3. ML phylogenetic reconstruction using RaxML-HPC2 for 15 *Abies* species. Bootstrap support are in black numbers over the branches.**
 
-Enclosed in the yellow box, we can observe a group composed of those species from Mesoamerica and North America, similar to Group I, in the phylogeny of figure 2 in the article by Aguirre-Planter (2011). Within this group in my phylogenetic reconstruction, i obtainedlow bootstrap supports, and it is not possible to observe any biogeographical pattern that could explain the pattern of divergence between species, such as the effect of some geographic barrier (*i.e.* the transversal neovolcanic axis) as a factor encourage speciation by vicariance. 
+Enclosed in the yellow box, we can observe in figure 3 a group composed of those species from Mesoamerica and North America, similar to Group I, in the phylogeny of figure 2 in the article by Aguirre-Planter (2011)(figure 3). Within this group in my phylogenetic reconstruction, I obtained low bootstrap supports, and it is not possible to observe any biogeographical pattern that could explain the pattern of divergence between species, such as the effect of some geographic barrier (*i.e.* the transversal neovolcanic axis) as a factor that encourage speciation by vicariance. 
 
 ![TOPOLOGIA PLANTER](Planter.png)
 
 **Figure 4 Fig. 2. Maximum-likelihood phylogenetic reconstruction of 33 Abies taxa inferred from three chloroplast markers (rbcL, rps18-rpl20, trnL-trnF. Aguirre-Planter *et al.*, 2011).**
 
 
- The separation on the phylogenetic tree of the samples **AbCn01** and **AnAl01** (*A. Balsamea* from Montreal, Canada and *A. nordmanniana* from Koishikawa, Japan) could recover groups III and IV, corresponding to North America and the Mediterranean groups in Aguirre-Planter (2011). However, the evolutionary relationships between the groups are not recovered in the same way as in the phylogeny of Aguirre-Planter *et al*. (2011). This could be explained as an artifact in the process of phylogenetic reconstruction, by not having used a greater number of taxa in order to better dilute the evolutionary relationships between the groups. Since the analyzes were carried out using only a fraction of the data obtained by the sequencing process, these may not be enough to recover a better phylogenetic reconstruction. With the help of a computational Cluster, it could be possible to run a greater amount of data, using a greater number of taxa, in order to obtain much more robust results.
+ The separation on the phylogenetic tree of the samples **AbCn01** and **AnAl01** (*A. Balsamea* from Montreal, Canada and *A. nordmanniana* from Koishikawa, Japan) could recover groups III and IV, corresponding to North America and the Mediterranean groups in Aguirre-Planter (2011). However, the evolutionary relationships between the groups are not recovered in the same way as in the phylogeny of Aguirre-Planter *et al*. (2011). This could be explained as an artifact in the process of phylogenetic reconstruction, by not been used a greater number of taxa in order to have a better understanding of  the evolutionary relationship between the groups. Since the analyzes were carried out using only a fraction of the data obtained by the sequencing process, these may not be enough to recover a better phylogenetic reconstruction. With the help of a computational Cluster, it could be possible to run a greater amount of data, using a greater number of taxa, in order to obtain much more robust results.
  
- # Conclusions. 
- 
+ ## Conclusions. 
  Even when the best possible result was not obtained, in this project it was possible to explore the evolutionary relationships of the main Abies species in Mexico and Central America using new generation sequences. The Ipyrad program offers a wide range of parameters to obtain a good resulting assembly. Although it was not the core of the work, it could be important to evaluate the impact of the parameters used for the de novo assembly, and to know how these parameters affect when carrying out the reconstruction. 
  
  # Ethics of this Job
