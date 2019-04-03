@@ -69,7 +69,7 @@ Enclosed in the yellow box, we can observe a group composed of those species fro
 * Farjon, A., & Rushforth, K. D. (1989). A classification of Abies Miller (Pinaceae). Notes Roy Bot Gard Edinburgh, 46(1), 59-79
 * Liu, T. S. (1971). A monograph of the genus Abies. A monograph of the genus Abies.
 * Mascher, M., Wu, S., Amand, P. S., Stein, N., & Poland, J. (2013). Application of genotyping-by-sequencing on semiconductor sequencing platforms: a comparison of genetic and reference-based marker ordering in barley. PloS one, 8(10), e76925.
-
+* Vázquez-Lobo, A., 1996. Evolución de hongos endófitos del género Pinus. Tesis de licenciatura, Facultad de Ciencias, Universidad Nacional Autónoma de México, México, DF.
 
 
 
